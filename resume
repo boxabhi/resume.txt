@@ -1,0 +1,269 @@
+%-------------------------
+% Resume in Latex
+% Author : Abhijeet Gupta
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage[colorlinks]{hyperref}
+\usepackage{hyperref} 
+ \hypersetup{ 
+     colorlinks=true, 
+     linkcolor=blue, 
+     filecolor=blue, 
+     citecolor = black,       
+     urlcolor=blue, 
+     } 
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    {\Huge \scshape ABHIJEET GUPTA } \\ \vspace{3pt}
+    {\scshape BACKEND ENGINEER  } \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91-7985242482 ~ \href{mailto:abhijeetg4@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{abhijeetg40@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/gupta-abhijeet/}{\raisebox{-0.2\height}\faLinkedin\ \underline{Abhijeet-Gupta}}  ~
+ \href{https://github.com/boxabhi}
+{\raisebox{-0.2\height} \faGithub\ \underline{Github}}  ~
+ \href{https://www.youtube.com/channel/UCjcju-aD_ZcWxiXF5lvqntg}
+{\raisebox{-0.2\height} \faYoutube\ \underline{Youtube}}  ~
+   
+    \vspace{-8pt}
+\end{center}
+
+
+
+
+%----------------------EDUCATION Start-------------------------
+\section{\textcolor{MidnightBlue}{Education}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Masters in Computer Application}{June 2018 - Jun 2021}
+      {Madan Mohan Malaviya University Gorakhpur}{ CGPA: 8.30/10 }
+    \resumeSubheading
+      {Bachelors in Computer Application}{July 2015 - May 2018}
+    {IGNOU Delhi}{ Percentage: 65.48 per)}
+  \resumeSubHeadingListEnd  
+
+%----------------------EDUCATION End-------------------------
+
+%-----------------Professional Experience Start---------------
+
+\section{\textcolor{MidnightBlue}{Professional Experience}}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Engineer  MOB(Madoverbuildings)- Bangalore}{Jul 2023 - Present}
+      {}{}
+      \vspace{-20pt}
+      \resumeItemListStart
+
+
+ \resumeItem{Project Ownership:}
+      {Spearheaded the backend development \textbf{from scratch} for a B2B platform focused on same-day construction material delivery, managing the entire process \textbf{without other backend developers}.}
+    \resumeItem{API Integration:}
+      {Designed and implemented \textbf{complex business logic}, including e-commerce checkout funnels, and integrated APIs using \textbf{Django} and \textbf{RabbitMQ} for efficient, asynchronous task handling.}
+    \resumeItem{Full-Stack Contributions:}
+      {Developed frontend components using \textbf{ReactJS}, including API integration and UI/UX design.}
+    \resumeItem{Database Management:}
+      {Designed robust \textbf{database schemas} to support high-transaction environments, ensuring \textbf{scalability} and \textbf{performance}.}
+    \resumeItem{System Optimization:}
+    {Implemented \textbf{RabbitMQ} for task queuing, ensuring reliable communication between services and optimizing system performance. Improved search functionality by implementing \textbf{Elasticsearch} and managed a database with over \textbf{1 million SKUs}.}
+    \resumeItem
+      {View the project at \href{https://madoverbuilding.com/}{\textbf{MOB}}
+      and 
+      \href{http://partner.madoverbuildings.com/}{\textbf{MOB Partner}}
+      .}
+      
+\vspace{3pt}
+       
+
+       
+      \resumeItemListEnd
+       \vspace{+2pt}
+       
+%---------------------------------------------------------
+
+    \resumeSubheading
+      {Software Engineer- Supersourcing(Project INQ, Africa)}{May 2021 - Jul 2023}
+      {}{}
+      \vspace{-20pt}
+      \resumeItemListStart
+      
+\resumeItem{System Enhancements:}
+    {Implemented a \textbf{web scraper using Selenium} to reduce labor costs, and created a \textbf{ticketing system} integrated with \textbf{Salesforce} for efficient issue management.}
+    
+        \resumeItem{API Development:}
+    {Developed and maintained multiple APIs for an omni-channel platform used across five African countries, including \textbf{Nigeria}, \textbf{Botswana}, and \textbf{Zambia} etc.}
+\resumeItem{Billing Integration:}
+    {Integrated third-party billing systems such as \textbf{Globill} and \textbf{Iperbill}, and created a \textbf{PDF engine} for generating billing documents.}
+\resumeItem{Database and Search Optimization:}
+    {Managed backend databases using \textbf{MongoDB} and optimized search functionality with \textbf{Elasticsearch} and \textbf{Kibana} for large database.}
+\resumeItem{Deployment and Authentication:}
+    {Deployed applications using \textbf{Docker} and implemented user authentication and authorization with \textbf{Keycloak}.}
+
+\resumeItem{Project Link}
+    {View the project at \href{https://inq.inc/}{\textbf{inq.inc}}.}
+        
+  \vspace{3pt}
+       
+
+       
+      \resumeItemListEnd
+       \vspace{+2pt}
+       
+%---------------------------------------------------------
+
+    \resumeSubheading
+      {Software Engineer Intern- CognoAI}{January 2021 - May 2021}
+      {}{}
+      \vspace{-20pt}
+      \resumeItemListStart
+
+   
+    
+\resumeItem{API Development:}
+    {Developed backend APIs for various projects, including \textbf{Kotak Bank}, implementing robust functionality for secure financial transactions.}
+\resumeItem{Chatbot Creation:}
+    {Designed and deployed \textbf{chatbots} for multiple clients, enhancing customer interaction and support capabilities.}
+\resumeItem{Online Testing Platform:}
+    {Created an online testing platform named \textbf{Easy Step}, supporting MCQ, video, audio, and detailed formats.}
+\resumeItem{Real-Time File Upload:}
+    {Implemented \textbf{WebSockets} for real-time file uploads, enabling immediate storage and display on the UI.}
+
+   
+
+
+\section{\textcolor{MidnightBlue}{Technical Skills}}
+ \begin{itemize}[leftmargin=0.01in, label={}]
+    \small{
+     \item \textbf{Programming Languages}{: Python, Java, JavaScript, C++.}
+     \vspace{1pt}
+     \item \textbf{Tools \& Frameworks}{: Django, Django Rest Framework, Elasticsearch, Kafka, Celery, Websockets, Docker, Redis, Git, RabbitMQ}
+     \vspace{3pt}
+     \item \textbf{Data Handling}{: Numpy, Data Structures \& Algorithms.}
+     \vspace{3pt}
+     \item \textbf{Additional Skills}{: Real-time Data Processing, API Design, System Architecture.}
+    }
+ \end{itemize}
+ \vspace{-16pt}
+
+
+
+
+
+%-----------PROGRAMMING SKILLS End-----------
+
+
+%-----------Extracurricular Start---------------
+\section{\textcolor{MidnightBlue}{Academic Accomplishments \& Extracurricular}}
+    \resumeSubHeadingListStart
+        \resumeItemListStart
+            \resumeItem{YouTube Subscribers}{Grew channel to \textbf{90k+} subscribers, teaching programming and advanced backend topics.}
+            \vspace{-3pt}
+            \resumeItem{Instagram Followers}{Gained \textbf{150k+} followers in the coding niche, sharing programming insights and tutorials.}
+            \vspace{-3pt}
+            \resumeItem{Freelance Experience}{Worked as a freelancer during college, handling various backend development projects and delivering tailored solutions.}
+            \vspace{-3pt}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+%-----------Extracurricular End---------------
+
+
+\end{document}
+
+
+%------------------------ Resume End ------------------------
